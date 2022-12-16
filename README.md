@@ -7,3 +7,5 @@ curriculum requires
 start: 23:10 / 15.12.2022
 header redy: 0:11h / 16.12.2022
 (1 hour for the top part)
+content start: 7:06 /16.12
+    -image boxes and quote end: 7:57
