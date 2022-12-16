@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.header{
+.header,.footer{
     background-color: #1F2937;
     /* fallback color */
     color: aliceblue;
@@ -137,4 +137,47 @@ body{
     padding: 0;
     font-weight: bold;
     font-style: normal;
+  }
+  .ca{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+  }
+  .caBox{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 12px;
+    padding: 48px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .caHead{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .caMessage{
+    font-size: 18px;
+  }
+  .caButton{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border-color: #F9FAF8;
+    border-width: 1px;
+    border-style: solid;
+    padding: 18px;
+  }
+  .caButton:hover {
+    background: #fff;
+    color: #339DFF;
+    box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+  }
+  .footer{
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
